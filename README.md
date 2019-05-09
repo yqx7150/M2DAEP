@@ -15,7 +15,11 @@ Inspired by the central idea existed in the patch-based models,we adopt a 6-dime
     Cuda-8.0
     MatConvNet
     Caffe
+
 ## SISR
 './SISR/Multich_Demo_MDAEP_SR_modified_1change_RED.m' is the demo of M2DAEP for SISR.
 ## Deblurring
 './Deblurring/demo_6D_twosigma_extend.m' is the demo of M2DAEP for Deblurring.
+
+### The flowchart of employing the learned M2EDAP to SISR application. Notice that multi-channels and multi-models is ultilized. 6-channal image is obtained by copying the original color image. Additionally, 6-channel networks implemeted at noise level 11 2 and 25 2 are simulateously used.
+![repeat-MDAEP](https://github.com/yqx7150/M2DAEP/blob/master/SISR/Figs/21.png)
