@@ -1,6 +1,6 @@
 # M2DAEP
 The Code is created based on the method described in the following paper:
-High-dimensional embedding denoising autoencoding prior for color Image restoration
+Yuan Yuan, Jinjie Zhou, Zhuonan He, Shanshan Wang, Biao Xiong, Qiegen Liu, High-Dimensional Embedding Denoising Autoencoding Prior for Color Image Restoration, 2019 IEEE International Conference on Image Processing (ICIP), pp. 759–763, 2019.
 
 ## Motivation
 In many non-local patch-based approaches, there usually consist of three steps: patch matching/clustering, sparsity or low-rank modeling as a regularizer, and patch weighted/aggregation modeling. As shown in Fig. 1(a), the patch matching procedure enables multi-patches with similar structural patterns to be found and grouped. Meanwhile, patch aggregation strategy applied on the clustered patches can achieve better restoration.These two procedures play the role of converting pixel domain to patch domain and returning the restored results in patch domain to pixel domain, respectively.
